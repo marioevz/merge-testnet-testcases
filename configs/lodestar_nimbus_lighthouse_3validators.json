@@ -1,0 +1,25 @@
+{
+    "participants": [
+		{
+            "elType": "geth",
+            "elImage": "parithoshj/geth:master",
+            "clType": "lodestar"
+        },
+        {
+            "elType": "geth",
+            "elImage": "parithoshj/geth:master",
+            "clType": "nimbus"
+        },
+        {
+            "elType": "geth",
+            "elImage": "parithoshj/geth:master",
+            "clType": "lighthouse"
+        }
+    ],
+
+    "network": {
+		"totalTerminalDifficulty": 50000000,
+        "mergeForkEpoch": 3
+    },
+    "logLevel": "debug"
+}

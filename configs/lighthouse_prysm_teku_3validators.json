@@ -1,0 +1,26 @@
+{
+    "participants": [
+        {
+            "elType": "geth",
+            "elImage": "parithoshj/geth:master",
+            "clType": "lighthouse"
+        },
+		{
+            "elType": "geth",
+            "elImage": "parithoshj/geth:master",
+            "clType": "prysm",
+            "clImage": "gcr.io/prysmaticlabs/prysm/beacon-chain:kiln-0aae32,gcr.io/prysmaticlabs/prysm/validator:kiln-ee1ee6"
+        },
+        {
+            "elType": "geth",
+            "elImage": "parithoshj/geth:master",
+            "clType": "teku"
+        }
+    ],
+
+    "network": {
+		"totalTerminalDifficulty": 50000000,
+        "mergeForkEpoch": 3
+    },
+    "logLevel": "debug"
+}
